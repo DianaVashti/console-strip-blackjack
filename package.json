@@ -1,0 +1,32 @@
+{
+  "name": "console-strip-blackjack",
+  "version": "1.0.0",
+  "description": "A blackjack console game where you bet your 👕, 👖, and 👞 when you run out of money",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaVashti/console-strip-blackjack.git"
+  },
+  "keywords": [
+    "blackjack"
+  ],
+  "author": "Di V",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DianaVashti/console-strip-blackjack/issues"
+  },
+  "homepage": "https://github.com/DianaVashti/console-strip-blackjack#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^4.14.1",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.4"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.0.2"
+  }
+}
